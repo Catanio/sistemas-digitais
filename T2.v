@@ -26,7 +26,7 @@ module count_check (input [25:0] count, output sign);
   assign sign = sign_reg;
   always @(count) begin
     case (count)
-      10: sign_reg <=1;
+      26'd50000000: sign_reg <=1;
       default : sign_reg <=0;
     endcase
   end
