@@ -1,0 +1,19 @@
+O objetivo do trabalho é fazer um programa em verilog para verificar se um ponto está dentro de um triangulo codificado em três
+pontos.
+
+Primeiro passo foi fazer um arquivo que gera cordenadas X e Y para pontos A,B,C e P aleatóriamente, salvar em um arquivo na
+pasta "data" como input_points.dat;
+
+Segundo passo foi fazer um programa em C - por estar mais habituado com esta linguagem, logo, ter maior segurança nos resultados
+O programa segue o teorema de que a soma das áreas dos triangulos formados pela permutação dos pontos ABCP devem ser iguais a área
+do triangulo ABC para que o ponto P esteja dentro do triangulo ABC. Para essa verificação foram usados valores da determinante
+das matrizes. ele lê os pontos do arquivo "input_points.dat" e armazerna valores booleanos (dentro do triangulo = 1) num
+arquivo chamado "output_points_c.dat". O programa foi nomeado como "PITc" (point inside a triangle em C).
+
+Terceiro passo foi passar a lógica do programa em C para verilog, A abordagem que eu mantive não foi a mais eficiente justamente
+por manter completa fidelidade ao código em C e com separação dos módulos de determinante, soma e comparação. o programa foi
+nomeado como "PITv".
+
+O quarto passo foi fazer um programa que pegava os "output_points" do programa em C e do programa em V. Como houveram uma série de
+testes, achei interessante também adicionar a informação sobre em qual linha foi encontrado o erro, caso tenha sido encontrado.
+
