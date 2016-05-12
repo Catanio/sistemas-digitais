@@ -1,5 +1,5 @@
 module det(input clk, input [10:0] Ix, input [9:0] Iy, output [22:0]Det, input [3:0] state, output write);
-	reg signed[10:0] Ax, Bx, Cx; //registrador dos pontos X (resolução = 640x480, por isso 10bits pra inX)
+	reg signed[10:0] Ax, Bx, Cx; //registrador dos pontos X (resolução = 640x480, por isso 11bits pra inX)
 	reg signed[9:0] Ay, By, Cy;
 	reg signed[21:0] RDpri1, RDpri2, RDsec1, RDsec2; //resultado da mult. da diag principal/secundária (reg 1,2)
 	reg signed[22:0] RMDp, RMDs; //resultado da soma multiplicação da diag. pri/sec
