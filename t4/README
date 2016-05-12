@@ -2,7 +2,7 @@ O objetivo do trabalho é fazer um programa em verilog para verificar se um pont
 pontos.
 
 Primeiro passo foi fazer um arquivo que gera cordenadas X e Y para pontos A,B,C e P aleatóriamente, salvar em um arquivo na
-pasta "data" como input_points.dat;
+pasta "data" como input_points.dat; O arquivo foi nomeado como "pgen" (point generator).
 
 Segundo passo foi fazer um programa em C - por estar mais habituado com esta linguagem, logo, ter maior segurança nos resultados
 O programa segue o teorema de que a soma das áreas dos triangulos formados pela permutação dos pontos ABCP devem ser iguais a área
@@ -16,4 +16,5 @@ nomeado como "PITv".
 
 O quarto passo foi fazer um programa que pegava os "output_points" do programa em C e do programa em V. Como houveram uma série de
 testes, achei interessante também adicionar a informação sobre em qual linha foi encontrado o erro, caso tenha sido encontrado.
+O arquivo foi nomeado como "compare".
 
