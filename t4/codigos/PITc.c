@@ -45,10 +45,9 @@ int det (ponto A, ponto B, ponto C)
 	det=diag_pri-diag_sec;
 	
 	//retorna o valor absoluto da determinante
-	if(det<0)
-		return -1*(det);
-	else 
-		return det;
+	if(det<0) return -1*(det);
+	
+	return det;
 	
 }
 
