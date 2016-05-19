@@ -21,7 +21,7 @@ A linguagem de descrição de hardware com a qual trabalhamos neste semestre é 
 * Adaptação do trabalho 3 para verilog.
 
 ### [Trabalho 5](https://github.com/Catanio/sistemas-digitais/tree/master/t4/data)
-* Trabalho 5 comparar, a partir de arquivo com entradas aleatórias se as saídas escritas em arquivos do trabalho 4 e 3 são iguais.
+* Comparar, a partir de arquivo com entradas aleatórias se as saídas escritas em arquivos do trabalho 4 e 3 são iguais.
 * [Gerador de pontos](https://github.com/Catanio/sistemas-digitais/blob/master/t4/codigos/pgen.c) -/- [Comparador](https://github.com/Catanio/sistemas-digitais/blob/master/t4/codigos/compare.c)
 
 Professor: [Emilio Wuerges](https://github.com/wuerges)
